@@ -1,0 +1,93 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'monospace'sans-serif;
+    }
+    
+    .container {
+        display: flex;
+        flex: 3;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+    
+    .box1 {
+        flex: 1;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: rgb(235, 235, 186);
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .box2 {
+        flex: 1;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: rgb(157, 202, 196);
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .box3 {
+        flex: 1;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: rgb(248, 247, 210);
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .box1 .box1-header {
+        background-color: rgb(218, 173, 115);
+        margin-bottom: 10px;
+        border-radius: 10px 10px 0px 0px;
+        padding: 20px;
+        margin-top: -20px;
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    
+    .box2 .box2-header {
+        background-color: rgb(214, 172, 174);
+        margin-bottom: 10px;
+        border-radius: 10px 10px 0px 0px;
+        padding: 20px;
+        margin-top: -20px;
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    
+    .box3 .box3-header {
+        background-color: rgb(100, 194, 194);
+        margin-bottom: 10px;
+        border-radius: 10px 10px 0px 0px;
+        padding: 20px;
+        margin-top: -20px;
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    
+    h2 {
+        color: white;
+        font-weight: 700px;
+        letter-spacing: .1rem;
+    }
+    
+    p {
+        font-size: 18px;
+        font-weight: 400p;
+        letter-spacing: .1rem;
+    }

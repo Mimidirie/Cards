@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+   
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content:center;
+    color: #ffff;
+    margin: 110px 220px;
+}
+.card{
+    width: 400px;
+    height: 540px;
+    border-radius: 30px;
+    margin-left: 20px;
+ 
+}
+.card img{
+width: 100%;
+border-top-right-radius:20px ;
+border-top-left-radius:20px ;
+}
+.card-text{
+margin: 20px  ;
+text-align: center;
+line-height: 1.;
+color: #000000;
+
+}
+
+.card-text h1 {
+    margin-top: 20px;
+
+}
+.card-text h3{
+    color: red;
+    font-size: 10px;
+}
+.card-text p{
+    color: rgb(143, 139, 139);
+    font-size: 16px;
+    margin-top:10px;
+}
+
+.card-footer {
+background: #9716ba;
+border-bottom-left-radius:30px ;
+border-bottom-right-radius:30px ;
+display: flex;
+justify-content: space-between;
+padding: 13px;
+margin-top:85px;
+position: relative;
+
+}
+.card-footer .one {
+
+text-align: center;
+}
+ .card-footer .one span {
+    font-size: 12px;
+    position: absolute;
+    bottom: 36px;
+  
+ }
+ .card-footer .one h2{
+    font-size: 15px;
+ }
+
+/* card 2*/
+.card2{
+    width: 400px;
+    height: 600px;
+    border-radius: 30px;
+    margin-left: 20px; 
+    
+ 
+}
+.card2 img{
+width: 100%;
+border-top-right-radius:20px ;
+border-top-left-radius:20px ;
+}
+.card2-text{
+margin: 20px  ;
+text-align: center;
+line-height: 1.;
+color: #000000;
+
+}
+
+
+.card2-text h3{
+    color: orange;
+    font-size: 10px;
+}
+.card2-text p{
+    color: rgb(143, 139, 139);
+    font-size: 16px;
+    margin-top:20px;
+}
+.card2-footer {
+background: #9716ba;
+border-bottom-left-radius:30px ;
+border-bottom-right-radius:30px ;
+display: flex;
+justify-content: space-between;
+padding: 13px;
+margin-top:125px;
+position: relative;
+
+}
+
+/* card 3 */
+
+.card3{
+    width: 400px;
+    height: 540px;
+    border-radius: 30px;
+    margin-left: 20px;
+ 
+}
+.card3 img{
+width: 100%;
+border-top-right-radius:20px ;
+border-top-left-radius:20px ;
+}
+.card3-text{
+margin: 20px  ;
+text-align: center;
+line-height: 1.;
+color: #000000;
+
+}
+
+.card3-text h3{
+    color: rgb(13, 99, 18);
+    font-size: 10px;
+}
+.card3-text p{
+    color: rgb(143, 139, 139);
+    font-size: 16px;
+    margin-top:10px;
+}
